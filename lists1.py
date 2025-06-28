@@ -1,0 +1,5 @@
+a = ("Jenifer", "Sally", "Jane")
+x = sorted(a, key=len, reverse=True)
+print(x)
+x.reverse() 
+print(x)
